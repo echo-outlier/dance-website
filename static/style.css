@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* Intro section */
+#logo{
+    display:flex;
+    align-items:center;
+    margin:-6px 30px;
+}
+#logo img{
+    height:44px;
+}
+#navbar{
+    background-color:#c51010;
+    padding :10px 0px
+}
+
+
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+#navbar ul li{
+
+    list-style:none;
+    border-radius:20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding:0px 34px;
+    font-family: 'Lilita One', cursive;
+    font-size:1.5rem;
+    color:white;   
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: rgb(218, 84, 74);
+
+
+}
+
+#intro{
+    font-family: 'Fredoka One', cursive;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size:35px;
+    background-color: yellow;
+    height:405px;
+    background:center / cover no-repeat url('./static/ardian-lumi-6Woj_wozqmA-unsplash.jpg');
+}
+#intro div.small{
+    font-size:25px;
+}
+
+
+
+/* mission section */
+section#mission{
+    height:377px;
+    width:82%;
+    margin:auto;
+    
+}
+
+
+
+.card{
+    border-radius: 26px;
+    display:inline-block;
+    width: 30%;
+    height: 255px;
+    border: 2px solid green;
+    margin: 14px 18px;
+    padding: 17px 30px;
+    background-color: #dea8a8;
+
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.card-content{
+    font-size:19px;
+    font-family:'Permanent Marker', cursive;
+}
+.card-image{
+    height:116px;
+    /* iske box ko height di hai phr img ki height inherit kr di hai; */
+    margin: 30px 25px 36px -13px;
+}
+.card-image img{
+    height:inherit;
+    /* aisa krne se box ke andar ka saman fit ho jaayega teeno mai */
+}
+section#mission h2{
+    padding:13px;
+    font-size:2rem;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+}
+.card h3{
+    text-align:center;
+    
+}
+
+/* Sponser section */
+#sponser{
+    background-color: orange;
+    height:300px;
+    
+    
+}
+.sponserimage{
+    height: 232px;
+    width: 80%;
+    margin:auto;
+
+}
+.simage{
+   
+    height: 73%;
+    margin: 5px 39px;
+    border-radius:35px;
+    border:2px solid #dede7c;
+   /* ye 80% usse .sponser image div ka mila hoga */
+}
+section#sponser h2{
+    font-size:2.5rem;
+    padding:13px;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
+#footer{
+    background-color: black;
+    color:white;
+    height:33px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.5rem;
+    
+}
+
+

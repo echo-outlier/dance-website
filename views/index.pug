@@ -1,0 +1,62 @@
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+       div#logo
+        img(src="./static/img1.jpg")
+          
+       li #[a(href="/") Home]
+       li #[a(href="/") About]
+       li #[a(href="/") Service]
+       li #[a(href="/") Class info]
+       li #[a(href="/") Contact info]
+    section#intro 
+      div WELCOME TO DANCE ACADEMY 
+       
+      div.small EAT SLEEP DANCE REPEAT
+       
+    section#mission
+    
+        h2 Our Mission
+        div.card
+         h3 HIP-HOP
+         div.card-box
+           div.card-image
+             img(src ="./static/ben-wiens-Qcl98B8Bk3I-unsplash.jpg") 
+           div.card-content 
+             p this is about the hiphop  and all five elements of the hip hop
+        div.card
+         h3 Classical
+         
+        
+         div.card-box
+           div.card-image
+             img(src ="./static/saksham-gangwar-wWiEThMgY94-unsplash.jpg") 
+           div.card-content 
+             p this is about the classical stuff and also all the classical stuff is taught by
+        div.card
+         h3 Break Dance
+         
+         
+         div.card-box
+           div.card-image
+             img(src ="./static/breakreate-A_IfOgYEQU4-unsplash.jpg") 
+           div.card-content 
+             p this is about the break dapeoplelnce and everything is taught by professional 
+    section#sponser 
+      h2 Our Sponsers
+      div.sponserimage
+       img(src="./static/1.jpg" ,class="simage" )
+       img(src="./static/2.jpg" ,class="simage" )
+       img(src="./static/3.jpg" ,class="simage" )
+       img(src="./static/4.jpg" ,class="simage" )
+     
+ 
+    footer#footer 
+      | Copywrite © 2024 Danceacademy.com All right reserved  
+
+    script
+      include   ../static/index.js

@@ -1,0 +1,25 @@
+//base waale mai navigation baar pehle hi de chuke hai...
+doctype html
+html
+  head
+    title Dance Academy
+    block style
+    block scripts
+    
+  body
+    nav#navbar 
+      ul
+       div#logo
+          img(src="../static/img1.jpg")
+          | HDA
+       li #[a(href="/") Home]
+       li #[a(href="/") About]
+       li #[a(href="/") Service]
+       li #[a(href="/") Class info]
+       li #[a(href="/contact") Contact info]
+
+
+    block content
+    footer#footer 
+      | Copywrite © 2024 Danceacademy.com All right reserved  
+      
